@@ -25,6 +25,7 @@ two purposes. Firstly, the goal is to identify potential high frequency traders.
 determine whether any of the identified traders are negatively impacting the market.
 
 - Order to trade ratio (OTR)
+
    The order to trade ratio metric calculates the total number of order
   messages divided by the number of trades at a broker, client or account level. It identifies
   traders that are amending or cancelling orders at a far higher rate than they are trading. High
