@@ -33,7 +33,7 @@ determine whether any of the identified traders are negatively impacting the mar
 metric can be tweaked and focused by examining the max OTR in 10-minute buckets or scanning
 for bursts in OTR throughout the trading day.
 
-```kdb
+```q
 // - Realtime order to trade ratio q code. Calculation based on the last x minutes of
 the market
 OrderToTradeRatio:{[x]
